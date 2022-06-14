@@ -1,0 +1,243 @@
+# Standardization file for C:\postprocessing\Allen_Final\Temp_LMeasure_Final\H15-06-016-01-03-02_549378277_m.CNG.swc created with StdSwc version 1.31 on 1/31/18.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+4.3  Radius of line 17386 at 0.9152 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -0.37  -6.81  -1.35
+4.3  Radius of line 17387 at 0.9152 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -0.54  -7.91  -1.7
+4.3  Radius of line 17388 at 0.9152 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -0.9  -8.98  -1.97
+2.4  Length of segment ending at point 15377 >= 6.0 stdevs above mean at 10.975.  (no action taken)
+     B1      X, Y, Z:  -2.51  -3.57  -10.07
+2.4  Length of segment ending at point 15868 >= 6.0 stdevs above mean at 5.8558.  (no action taken)
+     B1      X, Y, Z:  1.46  5.63  0.68
+2.4  Length of segment ending at point 16650 >= 6.0 stdevs above mean at 6.2216.  (no action taken)
+     B1      X, Y, Z:  3.12  5.13  -1.63
+2.4  Length of segment ending at point 17351 >= 6.0 stdevs above mean at 2.9159.  (no action taken)
+     B1      X, Y, Z:  -34.25  19.18  -22.45
+2.4  Length of segment ending at point 17386 >= 6.0 stdevs above mean at 6.9524.  (no action taken)
+     B1      X, Y, Z:  -0.37  -6.81  -1.35
+2.4  Length of segment ending at point 604 >= 6.0 stdevs above mean at 31.1624.  (no action taken)
+     B1      X, Y, Z:  190.51  404.99  5.73
+2.4  Length of segment ending at point 647 >= 6.0 stdevs above mean at 18.8107.  (no action taken)
+     B1      X, Y, Z:  254.31  415.49  5.31
+2.4  Length of segment ending at point 798 >= 6.0 stdevs above mean at 35.4935.  (no action taken)
+     B1      X, Y, Z:  83.63  292.79  2.84
+2.4  Length of segment ending at point 863 >= 6.0 stdevs above mean at 58.9492.  (no action taken)
+     B1      X, Y, Z:  106.91  360.79  -5.06
+2.4  Length of segment ending at point 886 >= 6.0 stdevs above mean at 20.9185.  (no action taken)
+     B1      X, Y, Z:  51.36  325.09  37.34
+2.4  Length of segment ending at point 974 >= 6.0 stdevs above mean at 19.1224.  (no action taken)
+     B1      X, Y, Z:  -2.85  123.3  -52.02
+2.4  Length of segment ending at point 1019 >= 6.0 stdevs above mean at 18.5999.  (no action taken)
+     B1      X, Y, Z:  -7.29  84.86  -23.86
+2.4  Length of segment ending at point 1307 >= 6.0 stdevs above mean at 25.3819.  (no action taken)
+     B1      X, Y, Z:  -315.99  70.15  -6.7
+2.4  Length of segment ending at point 1884 >= 6.0 stdevs above mean at 31.7221.  (no action taken)
+     B1      X, Y, Z:  256.09  -24.77  -27.92
+2.4  Length of segment ending at point 1973 >= 6.0 stdevs above mean at 20.8873.  (no action taken)
+     B1      X, Y, Z:  209.6  3.36  1.78
+2.4  Length of segment ending at point 2394 >= 6.0 stdevs above mean at 21.8186.  (no action taken)
+     B1      X, Y, Z:  185.5  142.49  -17.51
+2.4  Length of segment ending at point 2427 >= 6.0 stdevs above mean at 30.3294.  (no action taken)
+     B1      X, Y, Z:  148.6  189.49  -26.84
+2.4  Length of segment ending at point 2449 >= 6.0 stdevs above mean at 28.1907.  (no action taken)
+     B1      X, Y, Z:  165.8  220.19  -30.17
+2.4  Length of segment ending at point 2528 >= 6.0 stdevs above mean at 38.5457.  (no action taken)
+     B1      X, Y, Z:  214.1  138.89  8.08
+2.4  Length of segment ending at point 3725 >= 6.0 stdevs above mean at 19.1089.  (no action taken)
+     B1      X, Y, Z:  -24.04  45.31  -45.83
+2.4  Length of segment ending at point 3827 >= 6.0 stdevs above mean at 21.9061.  (no action taken)
+     B1      X, Y, Z:  -53.43  28.36  -53.39
+2.4  Length of segment ending at point 4290 >= 6.0 stdevs above mean at 25.4896.  (no action taken)
+     B1      X, Y, Z:  -74.23  14.91  -4.23
+2.4  Length of segment ending at point 4302 >= 6.0 stdevs above mean at 21.7334.  (no action taken)
+     B1      X, Y, Z:  -86.73  23.61  16.23
+2.4  Length of segment ending at point 4473 >= 6.0 stdevs above mean at 29.4933.  (no action taken)
+     B1      X, Y, Z:  -176.8  -3.82  -66.28
+2.4  Length of segment ending at point 4567 >= 6.0 stdevs above mean at 25.4384.  (no action taken)
+     B1      X, Y, Z:  -134.79  9.81  -9.36
+2.4  Length of segment ending at point 4654 >= 6.0 stdevs above mean at 26.587.  (no action taken)
+     B1      X, Y, Z:  -219.49  30.43  -33.81
+2.4  Length of segment ending at point 4655 >= 6.0 stdevs above mean at 17.8203.  (no action taken)
+     B1      X, Y, Z:  -218.79  47.85  -30.12
+2.4  Length of segment ending at point 4910 >= 6.0 stdevs above mean at 26.5066.  (no action taken)
+     B1      X, Y, Z:  -113.5  -78.52  -1.2
+2.4  Length of segment ending at point 5257 >= 6.0 stdevs above mean at 20.1129.  (no action taken)
+     B1      X, Y, Z:  -5.91  153.2  -6.29
+2.4  Length of segment ending at point 5632 >= 6.0 stdevs above mean at 28.9505.  (no action taken)
+     B1      X, Y, Z:  -82.41  204.1  2.24
+2.4  Length of segment ending at point 5633 >= 6.0 stdevs above mean at 23.7169.  (no action taken)
+     B1      X, Y, Z:  -100.49  194.2  13.97
+2.4  Length of segment ending at point 5744 >= 6.0 stdevs above mean at 21.7443.  (no action taken)
+     B1      X, Y, Z:  -102.39  113.5  -23.9
+2.4  Length of segment ending at point 5781 >= 6.0 stdevs above mean at 18.8271.  (no action taken)
+     B1      X, Y, Z:  -94.35  98.15  -37.0
+2.4  Length of segment ending at point 5876 >= 6.0 stdevs above mean at 18.3938.  (no action taken)
+     B1      X, Y, Z:  -70.79  82.71  -12.8
+2.4  Length of segment ending at point 5889 >= 6.0 stdevs above mean at 19.8862.  (no action taken)
+     B1      X, Y, Z:  -120.79  119.4  -19.2
+2.4  Length of segment ending at point 5890 >= 6.0 stdevs above mean at 22.8452.  (no action taken)
+     B1      X, Y, Z:  -123.89  121.1  -41.77
+2.4  Length of segment ending at point 5977 >= 6.0 stdevs above mean at 24.618.  (no action taken)
+     B1      X, Y, Z:  -130.59  153.7  1.96
+2.4  Length of segment ending at point 5999 >= 6.0 stdevs above mean at 23.4156.  (no action taken)
+     B1      X, Y, Z:  -152.09  134.3  -25.21
+2.4  Length of segment ending at point 6004 >= 6.0 stdevs above mean at 22.7953.  (no action taken)
+     B1      X, Y, Z:  -141.39  163.9  19.25
+2.4  Length of segment ending at point 6403 >= 6.0 stdevs above mean at 23.0106.  (no action taken)
+     B1      X, Y, Z:  -173.59  124.9  25.07
+2.4  Length of segment ending at point 6415 >= 6.0 stdevs above mean at 18.825.  (no action taken)
+     B1      X, Y, Z:  -177.59  131.8  -9.78
+2.4  Length of segment ending at point 6611 >= 6.0 stdevs above mean at 21.8113.  (no action taken)
+     B1      X, Y, Z:  -103.29  147.5  21.93
+2.4  Length of segment ending at point 6731 >= 6.0 stdevs above mean at 34.3751.  (no action taken)
+     B1      X, Y, Z:  -288.29  198.3  27.1
+2.4  Length of segment ending at point 6807 >= 6.0 stdevs above mean at 29.0728.  (no action taken)
+     B1      X, Y, Z:  -138.79  85.52  24.03
+2.4  Length of segment ending at point 7874 >= 6.0 stdevs above mean at 18.2344.  (no action taken)
+     B1      X, Y, Z:  80.91  96.37  -48.06
+2.4  Length of segment ending at point 7986 >= 6.0 stdevs above mean at 18.7986.  (no action taken)
+     B1      X, Y, Z:  97.12  83.02  0.42
+2.4  Length of segment ending at point 8364 >= 6.0 stdevs above mean at 25.8335.  (no action taken)
+     B1      X, Y, Z:  57.83  123.09  -1.6
+2.4  Length of segment ending at point 8527 >= 6.0 stdevs above mean at 18.2115.  (no action taken)
+     B1      X, Y, Z:  133.8  150.39  -11.07
+2.4  Length of segment ending at point 8623 >= 6.0 stdevs above mean at 45.4987.  (no action taken)
+     B1      X, Y, Z:  187.3  206.79  12.81
+2.4  Length of segment ending at point 8650 >= 6.0 stdevs above mean at 41.7262.  (no action taken)
+     B1      X, Y, Z:  228.1  202.19  -19.68
+2.4  Length of segment ending at point 8676 >= 6.0 stdevs above mean at 37.0223.  (no action taken)
+     B1      X, Y, Z:  132.1  243.19  0.29
+2.4  Length of segment ending at point 8685 >= 6.0 stdevs above mean at 18.9395.  (no action taken)
+     B1      X, Y, Z:  135.0  123.59  -25.62
+2.4  Length of segment ending at point 8775 >= 6.0 stdevs above mean at 24.6528.  (no action taken)
+     B1      X, Y, Z:  159.7  140.19  18.81
+2.4  Length of segment ending at point 8902 >= 6.0 stdevs above mean at 17.8563.  (no action taken)
+     B1      X, Y, Z:  29.89  193.51  5.78
+2.4  Length of segment ending at point 8953 >= 6.0 stdevs above mean at 37.1001.  (no action taken)
+     B1      X, Y, Z:  -7.91  218.2  -47.07
+2.4  Length of segment ending at point 8976 >= 6.0 stdevs above mean at 28.8983.  (no action taken)
+     B1      X, Y, Z:  35.74  191.69  -47.12
+2.4  Length of segment ending at point 8981 >= 6.0 stdevs above mean at 20.7687.  (no action taken)
+     B1      X, Y, Z:  60.99  189.79  -45.87
+2.4  Length of segment ending at point 9002 >= 6.0 stdevs above mean at 35.3859.  (no action taken)
+     B1      X, Y, Z:  -79.3  205.1  -45.16
+2.4  Length of segment ending at point 9157 >= 6.0 stdevs above mean at 32.1032.  (no action taken)
+     B1      X, Y, Z:  2.81  239.59  37.6
+2.4  Length of segment ending at point 9227 >= 6.0 stdevs above mean at 27.2777.  (no action taken)
+     B1      X, Y, Z:  -25.82  256.9  37.04
+2.4  Length of segment ending at point 9474 >= 6.0 stdevs above mean at 18.9596.  (no action taken)
+     B1      X, Y, Z:  -71.57  158.9  13.63
+2.4  Length of segment ending at point 9646 >= 6.0 stdevs above mean at 19.549.  (no action taken)
+     B1      X, Y, Z:  6.78  143.39  29.15
+2.4  Length of segment ending at point 9808 >= 6.0 stdevs above mean at 18.6727.  (no action taken)
+     B1      X, Y, Z:  105.5  174.89  -26.12
+2.4  Length of segment ending at point 9866 >= 6.0 stdevs above mean at 24.5992.  (no action taken)
+     B1      X, Y, Z:  60.18  242.39  12.9
+2.4  Length of segment ending at point 9920 >= 6.0 stdevs above mean at 17.9276.  (no action taken)
+     B1      X, Y, Z:  31.31  191.19  23.5
+2.4  Length of segment ending at point 10105 >= 6.0 stdevs above mean at 20.0265.  (no action taken)
+     B1      X, Y, Z:  22.33  181.69  39.3
+2.4  Length of segment ending at point 10799 >= 6.0 stdevs above mean at 44.6716.  (no action taken)
+     B1      X, Y, Z:  289.02  -43.3  10.76
+2.4  Length of segment ending at point 10803 >= 6.0 stdevs above mean at 34.2729.  (no action taken)
+     B1      X, Y, Z:  288.49  -7.47  10.9
+2.4  Length of segment ending at point 10832 >= 6.0 stdevs above mean at 26.7049.  (no action taken)
+     B1      X, Y, Z:  335.9  17.02  23.92
+2.4  Length of segment ending at point 10977 >= 6.0 stdevs above mean at 76.0093.  (no action taken)
+     B1      X, Y, Z:  277.19  -115.2  -10.87
+2.4  Length of segment ending at point 11142 >= 6.0 stdevs above mean at 25.2648.  (no action taken)
+     B1      X, Y, Z:  311.89  -96.42  -14.48
+2.4  Length of segment ending at point 11143 >= 6.0 stdevs above mean at 58.3023.  (no action taken)
+     B1      X, Y, Z:  330.29  -110.0  -68.11
+2.4  Length of segment ending at point 11294 >= 6.0 stdevs above mean at 19.4323.  (no action taken)
+     B1      X, Y, Z:  121.99  -26.53  -17.04
+2.4  Length of segment ending at point 11307 >= 6.0 stdevs above mean at 24.0544.  (no action taken)
+     B1      X, Y, Z:  156.69  -49.23  -21.37
+2.4  Length of segment ending at point 11308 >= 6.0 stdevs above mean at 24.2082.  (no action taken)
+     B1      X, Y, Z:  154.09  -69.53  -8.44
+2.4  Length of segment ending at point 11341 >= 6.0 stdevs above mean at 27.0489.  (no action taken)
+     B1      X, Y, Z:  186.39  -70.55  -5.94
+2.4  Length of segment ending at point 11474 >= 6.0 stdevs above mean at 19.382.  (no action taken)
+     B1      X, Y, Z:  123.19  -29.55  8.98
+2.4  Length of segment ending at point 11804 >= 6.0 stdevs above mean at 23.5383.  (no action taken)
+     B1      X, Y, Z:  26.72  -117.0  -70.48
+2.4  Length of segment ending at point 11876 >= 6.0 stdevs above mean at 29.0418.  (no action taken)
+     B1      X, Y, Z:  41.96  -138.9  -59.01
+2.4  Length of segment ending at point 12235 >= 6.0 stdevs above mean at 33.8489.  (no action taken)
+     B1      X, Y, Z:  205.59  -171.2  -27.48
+2.4  Length of segment ending at point 12265 >= 6.0 stdevs above mean at 28.5931.  (no action taken)
+     B1      X, Y, Z:  210.29  -137.2  -45.09
+2.4  Length of segment ending at point 12371 >= 6.0 stdevs above mean at 35.3487.  (no action taken)
+     B1      X, Y, Z:  223.69  -108.8  -61.32
+2.4  Length of segment ending at point 12374 >= 6.0 stdevs above mean at 47.1397.  (no action taken)
+     B1      X, Y, Z:  92.7  -107.0  -70.91
+2.4  Length of segment ending at point 12411 >= 6.0 stdevs above mean at 19.4006.  (no action taken)
+     B1      X, Y, Z:  140.09  -87.5  -67.01
+2.4  Length of segment ending at point 12419 >= 6.0 stdevs above mean at 31.4771.  (no action taken)
+     B1      X, Y, Z:  124.59  -135.5  -63.25
+2.4  Length of segment ending at point 12473 >= 6.0 stdevs above mean at 23.9636.  (no action taken)
+     B1      X, Y, Z:  45.83  -61.37  -53.11
+2.4  Length of segment ending at point 12564 >= 6.0 stdevs above mean at 21.4491.  (no action taken)
+     B1      X, Y, Z:  -39.02  -35.5  -57.7
+2.4  Length of segment ending at point 12590 >= 6.0 stdevs above mean at 18.3154.  (no action taken)
+     B1      X, Y, Z:  -40.29  -11.58  -48.81
+2.4  Length of segment ending at point 12737 >= 6.0 stdevs above mean at 20.6628.  (no action taken)
+     B1      X, Y, Z:  -82.35  -46.65  -46.11
+2.4  Length of segment ending at point 12770 >= 6.0 stdevs above mean at 25.8152.  (no action taken)
+     B1      X, Y, Z:  -97.3  -64.61  -66.5
+2.4  Length of segment ending at point 12789 >= 6.0 stdevs above mean at 19.6092.  (no action taken)
+     B1      X, Y, Z:  -92.03  -64.85  -21.07
+2.4  Length of segment ending at point 12830 >= 6.0 stdevs above mean at 27.4379.  (no action taken)
+     B1      X, Y, Z:  -97.03  -112.89  -49.76
+2.4  Length of segment ending at point 12833 >= 6.0 stdevs above mean at 17.9531.  (no action taken)
+     B1      X, Y, Z:  -84.57  -126.99  -44.17
+2.4  Length of segment ending at point 12839 >= 6.0 stdevs above mean at 28.8963.  (no action taken)
+     B1      X, Y, Z:  -97.91  -139.79  -24.39
+2.4  Length of segment ending at point 12852 >= 6.0 stdevs above mean at 28.1253.  (no action taken)
+     B1      X, Y, Z:  -87.05  -157.79  -3.85
+2.4  Length of segment ending at point 12853 >= 6.0 stdevs above mean at 19.2743.  (no action taken)
+     B1      X, Y, Z:  -73.59  -167.09  -14.04
+2.4  Length of segment ending at point 12930 >= 6.0 stdevs above mean at 50.1842.  (no action taken)
+     B1      X, Y, Z:  -94.1  -222.09  -53.59
+2.4  Length of segment ending at point 12948 >= 6.0 stdevs above mean at 32.5791.  (no action taken)
+     B1      X, Y, Z:  -116.5  -204.09  -34.45
+2.4  Length of segment ending at point 12951 >= 6.0 stdevs above mean at 68.0016.  (no action taken)
+     B1      X, Y, Z:  -161.1  -253.59  -13.95
+2.4  Length of segment ending at point 12969 >= 6.0 stdevs above mean at 17.9267.  (no action taken)
+     B1      X, Y, Z:  -66.97  -14.35  -42.49
+2.4  Length of segment ending at point 12970 >= 6.0 stdevs above mean at 19.7434.  (no action taken)
+     B1      X, Y, Z:  -79.08  -11.34  -27.19
+2.4  Length of segment ending at point 13027 >= 6.0 stdevs above mean at 22.8094.  (no action taken)
+     B1      X, Y, Z:  -100.3  -43.05  -10.98
+2.4  Length of segment ending at point 13283 >= 6.0 stdevs above mean at 38.6387.  (no action taken)
+     B1      X, Y, Z:  -196.4  -163.59  -11.76
+2.4  Length of segment ending at point 13916 >= 6.0 stdevs above mean at 24.0955.  (no action taken)
+     B1      X, Y, Z:  -26.07  -84.13  5.73
+2.4  Length of segment ending at point 13955 >= 6.0 stdevs above mean at 18.9072.  (no action taken)
+     B1      X, Y, Z:  -12.86  -104.89  -13.23
+2.4  Length of segment ending at point 14072 >= 6.0 stdevs above mean at 20.72.  (no action taken)
+     B1      X, Y, Z:  -6.39  -109.29  -53.8
+2.4  Length of segment ending at point 14292 >= 6.0 stdevs above mean at 21.7962.  (no action taken)
+     B1      X, Y, Z:  -47.47  -282.69  -30.6
+2.4  Length of segment ending at point 14958 >= 6.0 stdevs above mean at 18.7504.  (no action taken)
+     B1      X, Y, Z:  372.89  -38.85  -4.84
+2.4  Length of segment ending at point 14990 >= 6.0 stdevs above mean at 27.1583.  (no action taken)
+     B1      X, Y, Z:  242.9  34.54  -3.75
+2.4  Length of segment ending at point 15001 >= 6.0 stdevs above mean at 39.0136.  (no action taken)
+     B1      X, Y, Z:  219.1  33.11  27.13
+2.4  Length of segment ending at point 15317 >= 6.0 stdevs above mean at 20.6974.  (no action taken)
+     B1      X, Y, Z:  281.2  64.48  -40.83
+2.4  Length of segment ending at point 15340 >= 6.0 stdevs above mean at 31.6893.  (no action taken)
+     B1      X, Y, Z:  306.2  35.98  -31.0
+2.4  Length of segment ending at point 15355 >= 6.0 stdevs above mean at 33.375.  (no action taken)
+     B1      X, Y, Z:  338.9  19.88  -43.92
+4.4  Line 17265 of rad 0.3526 links to 17264 of rad 0.1144.  (no action taken)
+     B1      X, Y, Z:  19.65  9.87  -11.63
+2.1  Line 1 has 7 daughters.  Type is 1.  (no action taken)
+     B1      X, Y, Z:  0.0  0.0  0.0
+ 
+ 
