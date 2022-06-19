@@ -6,6 +6,7 @@ import neurom as nm
 
 import matplotlib.pyplot as plt
 import math
+import os
 
 from NeuronMorphology import NeuronMorphology
 
@@ -35,11 +36,13 @@ class MorphologyDistribution():
     self.lengths = []
     self.diameters = []
     self.volumes = []
+    self.skeletons = {}
 
     for id in self.ids:
       neuron = NeuronMorphology(id, self.client)
       self.diameters.append(neuron.getDiameters())
       self.lengths.append(neuron.getLengths())
+      self.skeletons[id] = neuron.skeleton
       #neuron.visualize()
 
   def getDiameters(self):
@@ -56,10 +59,20 @@ class MorphologyDistribution():
     plt.plot(bins)
     plt.show()
 
+  def saveSWCs(self, folderPath):
+    abspath = os.path.abspath(os.getcwd() + folderPath)
+    if not os.path.isdir(abspath):
+      os.makedirs(abspath)
+    for id, skel in self.skeletons.items():
+      filePath = abspath + "/" + str(id) + ".swc"
+      print(filePath)
+      npt.skeleton.skeleton_df_to_swc(skel, filePath)
 
 if __name__ == "__main__":
   m = "(n:Neuron)"
-  w = "n.bodyId IN [707854989, 707863263, 707858790]"
+  #w = "n.bodyId IN [707854989, 707863263, 707858790]"
+  w = "n.instance =~ 'MBON.*'"
   extractor = MorphologyDistribution(match=m, where=w)
   extractor.histogram(extractor.getLengths())
   extractor.histogram(extractor.getDiameters())
+  extractor.saveSWCs("/MBON")
