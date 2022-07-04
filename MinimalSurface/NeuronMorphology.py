@@ -1,30 +1,34 @@
 import neuprint as npt
 from neuprint import Client
 from neuprint import fetch_custom, fetch_synapses, NeuronCriteria as NC, SynapseCriteria as SC, skeleton_segments
-
-import neurom as nm
+import skeletor as sk
 
 import matplotlib.pyplot as plt
 import math
-
+import json
+import trimesh
+import navis
 
 class NeuronMorphology():
   TOKEN = """eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRvaC5vQGh1c2t5Lm5ldS5lZHUiLCJsZXZlbCI6Im5vYXV0aCIsImltYWdlLXVybCI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FBVFhBSnd6TUtWbHk2ZnhvbTloRDl1UXBXMUlrXzBWWjkxXzdJblF5ajBhPXM5Ni1jP3N6PTUwP3N6PTUwIiwiZXhwIjoxODM0MTE2OTE3fQ.ZJPJsTgsFRwv-obvkDrAhRjRRKfC2WmhYxWmc3gwhb8"""
 
   DATASET = 'hemibrain:v1.2.1'
-  def __init__(self, id, client):
-    c = Client('neuprint.janelia.org', dataset=self.DATASET, token=self.TOKEN)
+  def __init__(self, id):
+    self.client = Client('neuprint.janelia.org', dataset=self.DATASET, token=self.TOKEN)
+    self.id = id
 
     q = """\
       MATCH (n:Neuron)
       WHERE n.bodyId = {}
-      RETURN n.bodyId, n.location.x, n.location.y, n.location.z, n.somaRadius
+      RETURN n.roiInfo
       """.format(id)
 
-    #self.neuron = fetch_custom(q)
+    df = self.client.fetch_custom(q)
+    self.roi = json.loads(self.client.fetch_custom(q)["n.roiInfo"][0])#["SNP(R)\\"[:-1]]
+  
 
     self.synapses = fetch_synapses(id)
-    self.skeleton = c.fetch_skeleton(id, heal=True)
+    self.skeleton = self.client.fetch_skeleton(id, heal=True)
 
     augmented_skeleton = npt.skeleton.attach_synapses_to_skeleton(self.skeleton, self.synapses)
     self.segments = skeleton_segments(augmented_skeleton)
@@ -66,10 +70,6 @@ class NeuronMorphology():
     'pre': 'blue',
     'post': 'red'
     }
-
-    #print(self.segments.columns)
-    #print(self.segments)
-
     self.segments['color'] = self.segments['structure'].map(colors)
 
     fig, axs = plt.subplots(2,2)
@@ -83,9 +83,11 @@ class NeuronMorphology():
     plt.show()
 
 
+
 if __name__ == "__main__":
   morphology = NeuronMorphology(327933027)
-  morphology.getLengths(visualize=True)
-  morphology.getDiameters(visualize=True)
-  morphology.getVolumes(visualize=True)
-  morphology.visualize()
+  morphology.getLengths(visualize=False)
+  morphology.getDiameters(visualize=False)
+  morphology.getVolumes(visualize=False)
+  
+  #morphology.visualize()

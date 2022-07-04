@@ -1,12 +1,13 @@
 import neuprint as npt
 from neuprint import Client
 from neuprint import fetch_neurons, fetch_synapses, NeuronCriteria as NC, SynapseCriteria as SC
-
-import neurom as nm
-
+import skeletor as sk
+from skeletor import Skeleton
 import matplotlib.pyplot as plt
-import math
 import os
+import numpy as np
+import pandas as pd
+import trimesh as tm
 
 from NeuronMorphology import NeuronMorphology
 
@@ -30,20 +31,21 @@ class MorphologyDistribution():
       """.format(match, where)
 
     
-
-    self.ids = self.client.fetch_custom(q)["n.bodyId"]
-    print(self.ids)
+    df = self.client.fetch_custom(q)
+    self.ids = df["n.bodyId"]
     self.lengths = []
     self.diameters = []
     self.volumes = []
     self.skeletons = {}
 
     for id in self.ids:
-      neuron = NeuronMorphology(id, self.client)
+      neuron = NeuronMorphology(id)
       self.diameters.append(neuron.getDiameters())
       self.lengths.append(neuron.getLengths())
-      self.skeletons[id] = neuron.skeleton
-      #neuron.visualize()
+      df = neuron.skeleton.rename({"rowId" : "node_id", "link" : "parent_id"}, axis = 1)
+      df["node_id"] = df["node_id"] - np.full(len(df["node_id"]), 1)
+      df["parent_id"] = df["parent_id"] - np.full(len(df["parent_id"]), 1)
+      self.skeletons[id] = df
 
   def getDiameters(self):
     return self.diameters
@@ -67,12 +69,29 @@ class MorphologyDistribution():
       filePath = abspath + "/" + str(id) + ".swc"
       print(filePath)
       npt.skeleton.skeleton_df_to_swc(skel, filePath)
+  
+  def visSkeletons(self, ids):
+    scene = tm.Scene()
+    bounds = []
+    for id in ids:
+      df = self.skeletons[id]
+      skeleton = Skeleton(df).skeleton.copy()
+      rgb = tm.visual.color.random_color()
+      scene.visual = tm.visual.color.ColorVisuals(mesh=skeleton, vertex_colors=rgb)
+      scene.add_geometry(skeleton)
+      bounds.append(skeleton.bounds)
+      #scene = skeleton.scene(mesh=False)
+
+    fac = 5 / np.fabs(bounds).max()
+    scene.apply_transform(np.diag([fac, fac, fac, 1]))
+    return scene.show()
 
 if __name__ == "__main__":
   m = "(n:Neuron)"
-  #w = "n.bodyId IN [707854989, 707863263, 707858790]"
-  w = "n.instance =~ 'MBON.*'"
+  w = "n.bodyId IN [707854989, 707863263, 707858790, 327933027, 612371421]"
+  #w = "n.instance =~ 'MBON.*'"
   extractor = MorphologyDistribution(match=m, where=w)
-  extractor.histogram(extractor.getLengths())
-  extractor.histogram(extractor.getDiameters())
-  extractor.saveSWCs("/MBON")
+  #extractor.histogram(extractor.getLengths())
+  #extractor.histogram(extractor.getDiameters())
+  #extractor.saveSWCs("/MBON")
+  extractor.visSkeletons(extractor.ids)
