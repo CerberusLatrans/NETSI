@@ -1,3 +1,4 @@
+from tkinter import TRUE
 import neuprint as npt
 from neuprint import Client
 from neuprint import fetch_custom, fetch_synapses, NeuronCriteria as NC, SynapseCriteria as SC, skeleton_segments
