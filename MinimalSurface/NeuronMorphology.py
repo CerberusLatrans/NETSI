@@ -6,6 +6,7 @@ import skeletor as sk
 
 import matplotlib.pyplot as plt
 import math
+import pandas as pd
 import json
 import trimesh
 import navis
@@ -25,15 +26,18 @@ class NeuronMorphology():
       """.format(id)
 
     df = self.client.fetch_custom(q)
-    self.roi = json.loads(self.client.fetch_custom(q)["n.roiInfo"][0])#["SNP(R)\\"[:-1]]
+    #self.roi = json.loads(self.client.fetch_custom(q)["n.roiInfo"][0])#["SNP(R)\\"[:-1]]
   
 
     self.synapses = fetch_synapses(id)
-    self.skeleton = self.client.fetch_skeleton(id, heal=True)
+    try:
+      self.skeleton = self.client.fetch_skeleton(id, heal=True)
+      augmented_skeleton = npt.skeleton.attach_synapses_to_skeleton(self.skeleton, self.synapses)
+      self.segments = skeleton_segments(augmented_skeleton)
+    except:
+      print("NO SKEL FOR", self.id)
+      self.skeleton = pd.DataFrame()
 
-    augmented_skeleton = npt.skeleton.attach_synapses_to_skeleton(self.skeleton, self.synapses)
-    self.segments = skeleton_segments(augmented_skeleton)
-  
   def getLengths(self, visualize = False):
     lengths  = self.segments["length"]
     if visualize:
